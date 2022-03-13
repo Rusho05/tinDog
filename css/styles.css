@@ -1,0 +1,206 @@
+body
+{
+    font-family: "Montserrat", sans-serif;
+}
+
+#title
+{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+h1
+{
+    font-family: "Montserrat Black", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2
+{
+    font-family: "Montserrat Black";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3
+{
+    font-family: "Montserrat Black", sans-serif;
+}
+
+p
+{
+    color: grey;
+}
+
+/* Navigation Bar */
+
+.navbar
+{
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}
+
+.nav-item
+{
+    padding: 0 15px;
+}
+
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: "Montserrat Light";
+}
+
+/* Download Button */
+
+.Download-Button
+{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img
+{
+    width: 15%;
+    position: absolute;
+    left: 45%;
+    top: 12%;
+}
+
+/* Features */
+
+#features
+{
+    background-color: #fff;
+    padding: 7% 15%;
+}
+
+.feature-box
+{
+    text-align: center;
+    padding: 5%;
+}
+
+.fas
+{
+    color: rgb(214, 64, 38);
+    padding: 5%;
+}
+
+.fas:hover
+{
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials
+{
+    padding: 8% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image
+{
+    width: 25%;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    border-radius: 50%;
+}
+
+/* Press */
+
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 5%;
+}
+
+.press-img
+{
+    width: 13%;
+    margin: 2% 4% 2%;
+}
+
+/* Pricing */
+
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column
+{
+    padding: 3% 2%;
+}
+
+/* Call To Action */
+
+#cta
+{
+    background-color: #ff4c68;
+    padding: 5%;
+    text-align: center;
+}
+
+.cta_footer
+{
+    color: #fff;    
+    font-family: "Montserrat Black" ;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+.ftr
+{
+    margin: 1%;
+}
+
+/* Footer */
+
+#footer
+{
+    padding: 7%;
+    text-align: center;
+}
+
+.ftr_logo
+{
+    margin: 1%;
+}
+
+/* Responsiveness */
+
+@media (max-width: 1028px)
+{
+    .title-img
+    {
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+    }    
+    .row
+    {
+        text-align: center;
+    }
+    #pricing
+    {
+        text-align: center;
+    }
+}
